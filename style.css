@@ -213,3 +213,84 @@ color: #4D4D4D;
     display: none;
   }
 }
+.clients-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.clients-section h2 {
+  font-size: 36px;
+  color: #4D4D4D;
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: #717171;
+}
+
+.logos {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logos img {
+  max-width: 80px;
+  opacity: 0.7;
+}
+
+.community {
+  margin-top: 80px;
+}
+
+.community h2 {
+  font-size: 36px;
+  color: #4D4D4D;
+}
+
+.community p {
+  margin-top: 10px;
+  color: #717171;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 22px;
+  color: #4D4D4D;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #717171;
+}
+@media (max-width: 768px) {
+  .logos {
+    justify-content: center;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+}
